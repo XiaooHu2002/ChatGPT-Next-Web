@@ -10,7 +10,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: 千屹AI镜像站-严千屹",
+  title: "千屹AI镜像站-严千屹",
   description: "Your personal ChatGPT Chat Bot.",
   viewport: {
     width: "device-width",
