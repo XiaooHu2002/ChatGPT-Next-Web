@@ -219,11 +219,7 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
-            </a>
-          </div>
+          
 
 <div className={styles["sidebar-action"]} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', whiteSpace: 'nowrap', overflow: 'hidden', border: '1px solid var(--white)', backgroundColor: 'var(--white)', padding: '5px', borderRadius: '10px', transition: 'all 0.3s ease', fontFamily: '幼圆' }}>
   <a href="https://blog.qianyios.top" target="_blank" rel="noopener noreferrer" style={{ fontSize: "16px", textDecoration: 'none', color: 'inherit' }}>
