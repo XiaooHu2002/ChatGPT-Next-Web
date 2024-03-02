@@ -225,7 +225,7 @@ export function SideBar(props: { className?: string }) {
 
           <div className={styles["sidebar-action"]}>
             <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
+              严千屹博客
             </a>
           </div>
         </div>
