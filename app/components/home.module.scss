@@ -16,18 +16,25 @@
   width: var(--window-width);
   height: var(--window-height);
 }
+.link-container {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .custom-link {
   text-decoration: none;
   color: inherit;
-  border: 1px solid black;
   padding: 3px;
   display: inline-block;
-  transition: background 0.3s;
+  border-radius: 0.5em;
 }
 
 .custom-link:hover {
   background: linear-gradient(to right, #e0faff, #17282e);
 }
+
 
 .container {
   @include container();
