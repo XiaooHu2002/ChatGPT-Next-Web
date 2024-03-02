@@ -156,10 +156,11 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
   ChatGPT-千屹镜像站<br />
-  返回主页—><span style="font-size: 12px">返回主页—>
-            <a href="https://blog.qianyios.top" className={styles["custom-link"]}>严千屹博客</a>
-            <—</span>
-</div>
+  返回主页—><span style={{ fontSize: "12px" }}>
+    <a href="https://blog.qianyios.top" className={styles["custom-link"]}>严千屹博客</a>
+    <—</span>
+         </div>
+
         <div className={styles["sidebar-sub-title"]}>
           Build your own AI assistant.
         </div>
