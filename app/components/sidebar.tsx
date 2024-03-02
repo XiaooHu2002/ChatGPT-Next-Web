@@ -223,11 +223,12 @@ export function SideBar(props: { className?: string }) {
             </a>
           </div>
 
-          <div className={styles["sidebar-action"]} style={{ textDecoration: 'none', color: 'inherit' }}>
-            <a href="https://blog.qianyios.top" target="_blank" rel="noopener noreferrer" style={{ fontSize: "16px", textDecoration: 'none', color: 'inherit' }}>
-              严千屹博客
-            </a>
-          </div>
+          <div className={styles["sidebar-action"]} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', whiteSpace: 'nowrap', overflow: 'hidden' }}>
+  <a href="https://blog.qianyios.top" target="_blank" rel="noopener noreferrer" style={{ fontSize: "16px", textDecoration: 'none', color: 'inherit' }}>
+    严千屹博客
+  </a>
+</div>
+
 
 
 
