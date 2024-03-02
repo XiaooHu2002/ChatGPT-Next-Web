@@ -157,9 +157,7 @@ export function SideBar(props: { className?: string }) {
         <div className={`${styles.sidebar} ${props.className} ${shouldNarrow && styles["narrow-sidebar"]}`}>
          <div className={styles["sidebar-title"]} data-tauri-drag-region>
       ChatGPT-千屹镜像站<br />
-      返回主页—><span style={{ fontSize: "12px" }}>
-        <a href="https://blog.qianyios.top" className={styles["custom-link"]}>严千屹博客</a>
-        <—</span>
+      返回主页—><a href="https://blog.qianyios.top" className={styles["custom-link"]}>严千屹博客</a><—
        </div>
      </div>
 
