@@ -155,7 +155,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat
+          ChatGPT-千屹镜像站-<a href="https://blog.qianyios.top" style="text-decoration: none;">严千屹博客</a>
         </div>
         <div className={styles["sidebar-sub-title"]}>
           Build your own AI assistant.
